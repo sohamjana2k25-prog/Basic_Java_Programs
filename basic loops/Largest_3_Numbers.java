@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 3numlargest {
+public class Largest_3_Numbers {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int largest=0;
