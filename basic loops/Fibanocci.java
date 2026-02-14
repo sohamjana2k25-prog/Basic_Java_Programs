@@ -19,5 +19,6 @@ public class Fibanocci  {
         }
         System.out.print("And obtained digit is :");
         System.out.println(lastval);
+        System.out.println("test");
     }
 }
