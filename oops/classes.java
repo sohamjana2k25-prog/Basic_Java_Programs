@@ -8,17 +8,18 @@ public class classes {
             Student student1 = new Student();
             Student student2 = new Student();
 
-            student1.rno[0] = 101;
-            student1.name[0] = "John";
-            student2.rno[0] = 102;
+            student1.rno = 101;
+            student1.name = "John";
+            student2.rno = 102;
+            student2.name = "Joe";
 
 
-            System.out.println("Student Roll No: " + student1.name[0] + student1.rno[0]);
+            System.out.println("Student Roll No: " + student2.name + student1.rno);
         }
 
         static class Student {
-            int[] rno=new int[1] ;
-            String[] name=new String[1] ;
+            int rno ;
+            String name ;
         }
 
 }
